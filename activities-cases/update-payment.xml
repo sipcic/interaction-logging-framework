@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--  Update Payment -->
+<ns34:Envelope xmlns:ns29="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/DebitInformation" xmlns:ns25="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ConsentUpdates/ConsentUpdatesAsync" xmlns:ns26="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpadtePaymentResSync" xmlns:ns27="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/GetPaymentHistory/GetPaymentHistoryResBOD" xmlns:ns28="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/CustomerInformation" xmlns:ns21="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/AccountUpdates/AccountUpdatesAsync" xmlns:ns22="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/CustomerActivity/CustomerActivityBOD" xmlns:ns23="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/CustomerActivity/CustomerActivityAsync" xmlns:ns24="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ConsentUpdates/ConsentUpdatesBOD" xmlns:ns20="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/AccountUpdates/AccountUpdatesBOD" xmlns:ns16="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ValidateRoutingNum/IsValidRoutingNumResSync" xmlns:ns17="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/InsertPayment/InsertPaymentResBOD" xmlns:ns14="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpdatePaymentResBOD" xmlns:ns15="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/ResultBOD" xmlns:ns18="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/InsertPayment/InsertPaymentResSync" xmlns:ns19="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/DeletePayment/DeletePaymentResSync" xmlns:ns34="http://www.w3.org/2003/05/soap-envelope" xmlns:ns9="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpdatePaymentReqSync" xmlns:ns32="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/ProcessedPaymentInformation" xmlns:ns33="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/GetPaymentHistory/GetPaymentHistoryResSync" xmlns:ns30="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/PaymentInformation" xmlns:ns12="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/GetPaymentHistory/GetPaymentHistoryReqBOD" xmlns:ns5="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ValidateRoutingNum/IsValidRoutingNumReqBOD" xmlns:ns31="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/PaymentProcessingDirections" xmlns:ns13="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/GetPaymentHistory/GetPaymentHistoryReqSync" xmlns:ns6="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ValidateRoutingNum/IsValidRoutingNumReqSync" xmlns:ns10="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/DeletePayment/DeletePaymentReqBOD" xmlns:ns7="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpdatePaymentReqBOD" xmlns:ns11="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/DeletePayment/DeletePaymentReqSync" xmlns:ns8="http:/www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpdatePaymentReqBOD" xmlns:ns2="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/InsertPayment/InsertPaymentReqBOD" xmlns:ns4="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/InsertPayment/InsertPaymentReqSync" xmlns:ns3="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/ServiceApplicationArea">
+    <ns34:Body>
+        <ns9:UpdatePaymentReqSync>
+            <ns9:ProcessService>
+                <ns7:UpdatePaymentReqBOD>
+                    <ns7:Payment>
+                        <ns7:PaymentID>71411284</ns7:PaymentID>
+                        <ns7:CustomerInformation>
+                            <ns7:CreditAccount>002-6731731</ns7:CreditAccount>
+                        </ns7:CustomerInformation>
+                        <ns7:DebitInformation>
+                            <ns7:PaymentType>ACH</ns7:PaymentType>
+                            <ns7:DebitRouting>322280058</ns7:DebitRouting>
+                            <ns7:DebitAccount>350738</ns7:DebitAccount>
+                            <ns7:ExpDate>2020-04-27T16:10:17.375-07:00</ns7:ExpDate>
+                            <ns7:TransType>CHECKING</ns7:TransType>
+                            <ns7:SkipCCOverATM>false</ns7:SkipCCOverATM>
+                        </ns7:DebitInformation>
+                        <ns7:PaymentInformation>
+                            <ns7:ScheduledPaymentDate>2020-10-15T00:00:00.000-07:00</ns7:ScheduledPaymentDate>
+                            <ns7:PaymentAmount>995.00</ns7:PaymentAmount>
+                            <ns7:FeeAmount>0</ns7:FeeAmount>
+                            <ns7:SpeedPayFeeChargeType>INCLUDED</ns7:SpeedPayFeeChargeType>
+                            <ns7:CollectorId>CLICKTPAY</ns7:CollectorId>
+                            <ns7:CollectorGroup>CTP</ns7:CollectorGroup>
+                        </ns7:PaymentInformation>
+                        <ns7:PaymentProcessingDirections>
+                            <ns7:CreditSiteId>CLEC</ns7:CreditSiteId>
+                            <ns7:CreditInstId>CLEC</ns7:CreditInstId>
+                            <ns7:PayeeCode>CLEC</ns7:PayeeCode>
+                            <ns7:TerminalType>INTERNET</ns7:TerminalType>
+                        </ns7:PaymentProcessingDirections>
+                    </ns7:Payment>
+                </ns7:UpdatePaymentReqBOD>
+                <ns3:ServiceApplicationArea>
+                    <ns3:ConversationID>1588029017376</ns3:ConversationID>
+                    <ns3:MessageType>Update Payment Request</ns3:MessageType>
+                    <ns3:Mode>SYNC</ns3:Mode>
+                    <ns3:RefToSequenceNo></ns3:RefToSequenceNo>
+                    <ns3:SenderID>C2P</ns3:SenderID>
+                    <ns3:SentTimeStamp>2020-04-27T16:10:17.375-07:00</ns3:SentTimeStamp>
+                    <ns3:SequenceNo>1</ns3:SequenceNo>
+                    <ns3:ServiceType>Request</ns3:ServiceType>
+                    <ns3:TargetID>WU</ns3:TargetID>
+                    <ns3:VersionNo>1588029017376</ns3:VersionNo>
+                </ns3:ServiceApplicationArea>
+            </ns9:ProcessService>
+        </ns9:UpdatePaymentReqSync>
+    </ns34:Body>
+</ns34:Envelope>

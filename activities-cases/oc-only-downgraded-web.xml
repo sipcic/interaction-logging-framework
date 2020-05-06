@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- OC only downgraded ( Web)-->
+<CommPrefEBAOCRequest xmlns:ns2="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ServiceRequest/SRCommPrefBOD" xmlns:ns4="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ServiceRequest/SRCommonBOD" xmlns:ns3="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/ServiceApplicationArea">
+    <ProcessService>
+        <SRList>
+            <ns4:SRCommonBOD>
+                <ns4:CustomerType>0</ns4:CustomerType>
+                <ns4:Comment>Electronic Business Agreement changed to 'Yes' , Overall Consent changed to 'Yes'(v7, 03/02/2020 01:12:00)</ns4:Comment>
+                <ns4:Recipient>B</ns4:Recipient>
+                <ns4:Branch>026</ns4:Branch>
+                <ns4:AccountNo>6350971</ns4:AccountNo>
+                <ns4:AccountType>R</ns4:AccountType>
+                <ns4:SRType>W</ns4:SRType>
+            </ns4:SRCommonBOD>
+            <ns2:SRCommPrefBOD>
+                <ns2:Consents>
+                    <ns2:OverallConsent>Y</ns2:OverallConsent>
+                    <ns2:OverallConsentDateTime>2020-03-02T13:14:00.238-08:00</ns2:OverallConsentDateTime>
+                    <ns2:EBAConsent>Y</ns2:EBAConsent>
+                    <ns2:EBAConsentDateTime>2020-03-02T13:14:00.238-08:00</ns2:EBAConsentDateTime>
+                </ns2:Consents>
+            </ns2:SRCommPrefBOD>
+        </SRList>
+    </ProcessService>
+    <ns3:ServiceApplicationArea>
+        <ns3:ConversationID>OFSC-2-385090bffa878b8</ns3:ConversationID>
+        <ns3:MessageType>NOTE</ns3:MessageType>
+        <ns3:Mode>ASYNC</ns3:Mode>
+        <ns3:RefToSequenceNo></ns3:RefToSequenceNo>
+        <ns3:SenderID>OFSC</ns3:SenderID>
+        <ns3:SentTimeStamp>2020-03-02T13:14:00.238-08:00</ns3:SentTimeStamp>
+        <ns3:SequenceNo>1</ns3:SequenceNo>
+        <ns3:ServiceType>Submit</ns3:ServiceType>
+        <ns3:TargetID>UCM</ns3:TargetID>
+        <ns3:VersionNo>1.0</ns3:VersionNo>
+        <ns3:Epoch>1583183640238</ns3:Epoch>
+        <ns3:BusTxnType>EBAOCUPD</ns3:BusTxnType>
+    </ns3:ServiceApplicationArea>
+</CommPrefEBAOCRequest>

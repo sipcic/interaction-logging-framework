@@ -1,0 +1,29 @@
+{
+  "namespace": "com.ibm.TFSESP",
+  "type": "record",
+  "name": "Interaction",
+  "fields": [
+    {"name": "TenantId", "type": ["string", "null"],"description":"Tenant id (TFS, MFS, ...)."},
+    {"name": "ChannelId", "type": ["string", "null"], "description": "Origin of the interaction (WEB, IVR, ...)."},
+    {"name": "KafaEndPoint", "type": ["string","null"],"description":"Kafka Url where the interaction will be published to."},
+    {"name": "Version", "type": ["string", "null"],"description": "The interaction schema version."},
+    {"name": "InteractionContext", "description": "The interaction related data.", "type": 
+      {
+        "type": "record",
+        "name": "InteractionDataRecord",
+        "fields": [
+          {"name": "InteractionType", "type": "string", "description":"The interaction type including: Activities; Cases; and System Events."},
+          {"name": "InteractionId", "type": "string", "description": "The unique identifier of the interaction."},
+          {"name": "Description", "type": "string", "description": "Description of the interaction."},
+          {"name": "BusinessProcess", "type": "string", "description": "Business process category."},
+          {"name": "SubBusinessProcess", "type": "string", "description": "Sub business process category."},
+          {"name": "CreatedBy", "type": "string", "description": "The user who created the interaction."},
+          {"name": "DateCreated", "type": "string", "description": "The date when the interaction was created."},
+          {"name": "LastModifiedBy", "type": "string", "description": "The user who updated the interaction."},
+          {"name": "LastModifiedDate", "type": "string", "description": "The date when the interaction was updated."},
+          {"name": "InteractionData", "type": "string", "description": "Interaction data payload in JSON format."}   
+        ]
+        }
+      }
+  ]
+}

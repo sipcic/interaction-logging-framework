@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--Delete Payment -->
+<ns34:Envelope 
+  xmlns:ns29="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/DebitInformation" 
+  xmlns:ns25="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ConsentUpdates/ConsentUpdatesAsync" 
+  xmlns:ns26="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpadtePaymentResSync" 
+  xmlns:ns27="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/GetPaymentHistory/GetPaymentHistoryResBOD" 
+  xmlns:ns28="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/CustomerInformation" 
+  xmlns:ns21="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/AccountUpdates/AccountUpdatesAsync" 
+  xmlns:ns22="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/CustomerActivity/CustomerActivityBOD" 
+  xmlns:ns23="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/CustomerActivity/CustomerActivityAsync" 
+  xmlns:ns24="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ConsentUpdates/ConsentUpdatesBOD" 
+  xmlns:ns20="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/AccountUpdates/AccountUpdatesBOD" 
+  xmlns:ns16="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ValidateRoutingNum/IsValidRoutingNumResSync" 
+  xmlns:ns17="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/InsertPayment/InsertPaymentResBOD" 
+  xmlns:ns14="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpdatePaymentResBOD" 
+  xmlns:ns15="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/ResultBOD" 
+  xmlns:ns18="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/InsertPayment/InsertPaymentResSync" 
+  xmlns:ns19="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/DeletePayment/DeletePaymentResSync" 
+  xmlns:ns34="http://www.w3.org/2003/05/soap-envelope" 
+  xmlns:ns9="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpdatePaymentReqSync" 
+  xmlns:ns32="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/ProcessedPaymentInformation" 
+  xmlns:ns33="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/GetPaymentHistory/GetPaymentHistoryResSync" 
+  xmlns:ns30="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/PaymentInformation" 
+  xmlns:ns12="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/GetPaymentHistory/GetPaymentHistoryReqBOD" 
+  xmlns:ns5="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ValidateRoutingNum/IsValidRoutingNumReqBOD" 
+  xmlns:ns31="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/PaymentProcessingDirections" 
+  xmlns:ns13="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/GetPaymentHistory/GetPaymentHistoryReqSync" 
+  xmlns:ns6="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ValidateRoutingNum/IsValidRoutingNumReqSync" 
+  xmlns:ns10="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/DeletePayment/DeletePaymentReqBOD" 
+  xmlns:ns7="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpdatePaymentReqBOD" 
+  xmlns:ns11="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/DeletePayment/DeletePaymentReqSync" 
+  xmlns:ns8="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/UpdatePayment/UpdatePaymentReqBOD" 
+  xmlns:ns2="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/InsertPayment/InsertPaymentReqBOD" 
+  xmlns:ns4="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/InsertPayment/InsertPaymentReqSync" 
+  xmlns:ns3="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/ServiceApplicationArea">
+    <ns34:Body>
+        <ns11:DeletePaymentReqSync>
+            <ns11:ProcessService>
+                <ns10:DeletePaymentReqBOD>
+                    <ns10:Payment>
+                        <ns10:PaymentID>71411284</ns10:PaymentID>
+                        <ns10:CreditAccount>002-6731731</ns10:CreditAccount>
+                    </ns10:Payment>
+                </ns10:DeletePaymentReqBOD>
+                <ns3:ServiceApplicationArea>
+                    <ns3:ConversationID>1588029094288</ns3:ConversationID>
+                    <ns3:MessageType>Validate Routing Number Request</ns3:MessageType>
+                    <ns3:Mode>SYNC</ns3:Mode>
+                    <ns3:SenderID>client</ns3:SenderID>
+                    <ns3:SentTimeStamp>2020-04-27T16:11:34.288-07:00</ns3:SentTimeStamp>
+                    <ns3:ServiceType>delete</ns3:ServiceType>
+                    <ns3:TargetID>WU</ns3:TargetID>
+                </ns3:ServiceApplicationArea>
+            </ns11:ProcessService>
+        </ns11:DeletePaymentReqSync>
+    </ns34:Body>
+</ns34:Envelope>

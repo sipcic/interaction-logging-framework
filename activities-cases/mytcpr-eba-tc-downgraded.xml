@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- myTCPR EBA/TC Downgraded -->
+<ns8:Envelope xmlns:ns2="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/Common/ServiceApplicationArea" xmlns="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/AccountUpdates/AccountUpdatesBOD" xmlns:ns4="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/CustomerActivity/CustomerActivityBOD" xmlns:ns3="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/AccountUpdates/AccountUpdatesAsync" xmlns:ns5="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/CustomerActivity/CustomerActivityAsync" xmlns:ns6="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ConsentUpdates/ConsentUpdatesBOD" xmlns:ns7="http://www.tfs.com/TFS/SharedComponents/ServiceSchemas/ConsentUpdates/ConsentUpdatesAsync" xmlns:ns8="http://www.w3.org/2003/05/soap-envelope">
+    <ns8:Body>
+        <ns7:ConsentUpdatesAsync>
+            <ns7:ProcessService>
+                <ns6:ConsentUpdatesBOD>
+                    <ns6:Customer>
+                        <ns6:FinancialAccount>
+                            <ns6:AccountNumber>6188576</ns6:AccountNumber>
+                            <ns6:Branch>040</ns6:Branch>
+                            <ns6:Region>05</ns6:Region>
+                            <ns6:AccountType>Retail</ns6:AccountType>
+                            <ns6:CustomerType>6</ns6:CustomerType>
+                            <ns6:Recipient>X</ns6:Recipient>
+                            <ns6:SRType>W</ns6:SRType>
+                            <ns6:SRComment>Click-To-Pay Electronic Business Agreement changed to 'Yes' - Version 12
+Click-To-Pay Terms and Conditions changed to 'Yes' - Version 12</ns6:SRComment>
+                        </ns6:FinancialAccount>
+                        <ns6:ConsumerCustomer>
+                            <ns6:FirstName>HECTOR</ns6:FirstName>
+                            <ns6:MiddleName>L</ns6:MiddleName>
+                            <ns6:LastName>ORSINI</ns6:LastName>
+                            <ns6:SocialSecurityNumber>596146087</ns6:SocialSecurityNumber>
+                        </ns6:ConsumerCustomer>
+                        <ns6:ListOfAddress>
+                            <ns6:Address>
+                                <ns6:Type>Existing</ns6:Type>
+                                <ns6:AddressType>Garage</ns6:AddressType>
+                                <ns6:AddressLine1>429 CALLE LERIDA</ns6:AddressLine1>
+                                <ns6:City>CAGUAS</ns6:City>
+                                <ns6:State>PR</ns6:State>
+                                <ns6:PostalCode>007271418</ns6:PostalCode>
+                            </ns6:Address>
+                        </ns6:ListOfAddress>
+                        <ns6:CommunicationData>
+                            <ns6:ListOfPhoneNumber>
+                                <ns6:PhoneNumber>
+                                    <ns6:Type>Existing</ns6:Type>
+                                    <ns6:PhoneType>Home</ns6:PhoneType>
+                                    <ns6:FullNumber>7876361486</ns6:FullNumber>
+                                </ns6:PhoneNumber>
+                                <ns6:PhoneNumber>
+                                    <ns6:Type>Existing</ns6:Type>
+                                    <ns6:PhoneType>Work</ns6:PhoneType>
+                                    <ns6:FullNumber>7876361486</ns6:FullNumber>
+                                </ns6:PhoneNumber>
+                                <ns6:PhoneNumber>
+                                    <ns6:Type>Existing</ns6:Type>
+                                    <ns6:PhoneType>Mobile</ns6:PhoneType>
+                                    <ns6:FullNumber></ns6:FullNumber>
+                                </ns6:PhoneNumber>
+                            </ns6:ListOfPhoneNumber>
+                            <ns6:ListOfEmail>
+                                <ns6:Email>
+                                    <ns6:Address>stage46087@getnada.com</ns6:Address>
+                                    <ns6:Type>AccountManagement</ns6:Type>
+                                </ns6:Email>
+                            </ns6:ListOfEmail>
+                        </ns6:CommunicationData>
+                        <ns6:Consents>
+                            <ns6:ClickToPayEBAConsent>Y</ns6:ClickToPayEBAConsent>
+                            <ns6:ClickToPayEBADateTime>2020-03-02T13:45:46.000-08:00</ns6:ClickToPayEBADateTime>
+                            <ns6:ClickToPayTCConsent>Y</ns6:ClickToPayTCConsent>
+                            <ns6:ClickToPayTCDateTime>2020-03-02T13:45:52.000-08:00</ns6:ClickToPayTCDateTime>
+                            <ns6:ClickToPayVersion>12</ns6:ClickToPayVersion>
+                        </ns6:Consents>
+                        <ns6:VehicleData>
+                            <ns6:VIN>JTHBA1D27G5033578</ns6:VIN>
+                            <ns6:Make>LEXUS</ns6:Make>
+                            <ns6:Model>LX IS 200</ns6:Model>
+                            <ns6:Year>2016</ns6:Year>
+                        </ns6:VehicleData>
+                    </ns6:Customer>
+                </ns6:ConsentUpdatesBOD>
+                <ns2:ServiceApplicationArea>
+                    <ns2:ConversationID>1583185553858</ns2:ConversationID>
+                    <ns2:MessageType>Click-to-Pay Consent</ns2:MessageType>
+                    <ns2:Mode>ASYNC</ns2:Mode>
+                    <ns2:SenderID>myTCPR</ns2:SenderID>
+                    <ns2:SentTimeStamp>2020-03-02T13:45:53.858-08:00</ns2:SentTimeStamp>
+                    <ns2:SequenceNo>1</ns2:SequenceNo>
+                    <ns2:ServiceType>Request</ns2:ServiceType>
+                    <ns2:TargetID>STARS/UCM</ns2:TargetID>
+                    <ns2:VersionNo>1.0</ns2:VersionNo>
+                </ns2:ServiceApplicationArea>
+            </ns7:ProcessService>
+        </ns7:ConsentUpdatesAsync>
+    </ns8:Body>
+</ns8:Envelope>
+
+
